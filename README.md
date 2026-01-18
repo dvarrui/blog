@@ -1,6 +1,6 @@
-# blog
+# Blog
 
-Blog - Diario y contenidos de interés
+Diario y contenidos de interés
 
 # Posts
 
