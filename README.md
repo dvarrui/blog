@@ -6,6 +6,7 @@ Diario y contenidos de interés
 
 202601XX:
 
-* [diccionario](./posts/20260108.diccionario.md)
+* [poo -python - diccionario](./posts/20260108.diccionario.md)
 * [gnulinux-acl](./posts/20260118.gnulinux-acl.md)
-* [poo-python](./posts/20260206.poo.python.md)
+* [poo-python - parte 1](./posts/20260206.poo.python.md)
+* [poo-python - parte 2](./posts/20260209.poo.python.md)

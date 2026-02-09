@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# El Gato es Perro v1
+# El Gato es Perro v2
 
 # PASO 1: Creamos las clases
 class Perro:
@@ -20,6 +20,10 @@ class Gato:
 snoopy = Perro("Snoopy")
 garfield = Gato("Garfield")
 
-# PASO 3 : Gato es perro, usando las clases de forma "inapropiada"
-snoopy.ladrar()        #=> [Snoopy] Guau
-Perro.ladrar(garfield) #=> [Garfield] Guau
+# PASO 3 : Gato es perro por "modificación genética"
+
+ladrar = Perro.__dict__["ladrar"]
+setattr(Gato, 'ladrar', ladrar)
+
+garfield.ladrar() #=> [Garfield] Guau
+
