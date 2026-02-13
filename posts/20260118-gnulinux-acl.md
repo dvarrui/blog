@@ -207,14 +207,6 @@ El problema es que los enlaces duros sólo funcionan con ficheros regulares no c
 ## 3.1 Contexto inicial
 
 ```bash
-$ vdir
-total 0
-drwxr-x--- 2 david proy_a_rw 19 ene 20 19:15 proy_a_rw/
-drwxr-x--- 2 david proy_b_rw 19 ene 20 19:08 proy_b_rw/
-drwxr-x--- 2 david proy_c_rw 19 ene 20 19:08 proy_c_rw/
-```
-
-```bash
 proyectos
 ├── proy_a_rw
 │   └── a.txt
@@ -258,8 +250,7 @@ total 4
 
 Ahora que sabemos que podemos usar los enlaces duros, junto con grupos y los permisos "640" para "simular" el mismo efecto que el paquete ACL... pero hacerlo manualmente es mucho trabajo, vamos a hacernos un script que lo haga todo por nosotros.
 
-Vamos allá. :-) (Esto es lo que más me gusta. ¡Automatizar!)
-
 ```
-EN BREVE...(1 día)
+(Esto es lo que más me gusta. ¡Automatizar!)
+CONTINUARÁ...
 ```
