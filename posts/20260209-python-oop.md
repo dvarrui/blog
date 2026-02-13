@@ -5,9 +5,9 @@ Fecha : 20260209
 Autor : David Vargas
 ```
 
-# POO Python (parte 2)
+# OOP Python (parte 2)
 
-Ya habíamos visto en el [post anterior](./20260206.poo.python.md) que `un Gato es un Perro`, y que, todo esto es posible porque:
+Ya habíamos visto en el [post anterior](./20260206.python-oop.md) que `un Gato es un Perro`, y que, todo esto es posible porque:
 
 * los objetos son diccionarios de atributos, 
 * y las clases son diccionarios de funciones.
