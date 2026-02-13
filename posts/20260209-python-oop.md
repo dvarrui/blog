@@ -7,12 +7,12 @@ Autor : David Vargas
 
 # OOP Python (parte 2)
 
-Ya habíamos visto en el [post anterior](./20260206.python-oop.md) que `un Gato es un Perro`, y que, todo esto es posible porque:
+Ya habíamos visto en el [post anterior](./20260206-python-oop.md) que `un Gato es un Perro`, y que, todo esto es posible porque:
 
 * los objetos son diccionarios de atributos, 
 * y las clases son diccionarios de funciones.
 
-> Lo habíamos comentado en el [post diccionario](./20260108.diccionario.md).
+> Lo habíamos comentado en el [post diccionario](./20260108-python-diccionario.md).
 
 Siguiendo con "nuestra locura mental" y "retorciendo" el lenguaje vamos a seguir un poco más realizando una "operación de cirujía", donde vamos coger código del Perro para "trasplantarlo" en Gato.
 
@@ -53,9 +53,20 @@ garfield.ladrar() #=> [Garfield] Guau
 ```
 
 ```text
-Y... ¡el gato vuelve a ladrar!
+Y tenemos que hemos alterado el comportamiento del Gato y ...
+¡el gato vuelve a ladrar!
 ```
 
-_Sé que todo esto no sirve para nada, pero es muy interesante/entretenido/divertido._
+_Sé que todo esto no sirve para nada, pero es muy didáctico._
 
 > ¡Perdona Garfield, por todas las "perrerías" que te estoy haciendo!
+
+# Reflexiones
+
+El objetivo de estos posts, no es molestar a nadie, sino:
+
+1. Primero porque quiero aprender cómo funcionan las cosas
+2. Me parece correcto mostrar lo que he aprendido a quien le pueda interesar
+3. La OOP de Python no es para nada como esperaba que fuera
+4. No recomiendo a nadie que haga nada de lo que pone este post. Además mi intención es advertir o mostrar de posibles comportamientos no deseado que pueden ocurrir en la OOP de Python.
+

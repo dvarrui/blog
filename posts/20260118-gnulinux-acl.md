@@ -228,27 +228,37 @@ ln proy_c_rw/c.txt proy_c_ro/c.txt
 ```
 
 ```bash
-drwxr-x--- 2 david proy_a_ro 19 ene 20 19:27 proy_a_ro/
-drwxr-x--- 2 david proy_a_rw 19 ene 20 19:27 proy_a_rw/
-drwxr-x--- 2 david proy_b_ro 19 ene 20 19:27 proy_b_ro/
-drwxr-x--- 2 david proy_b_rw 19 ene 20 19:27 proy_b_rw/
-drwxr-x--- 2 david proy_c_ro 19 ene 20 19:27 proy_c_ro/
-drwxr-x--- 2 david proy_c_rw 19 ene 20 19:27 proy_c_rw/
+dr-xr-x--- 2 david proy_a_ro 19 ene 20 19:27 proy_a_ro/
+drwxrwx--- 2 david proy_a_rw 19 ene 20 19:27 proy_a_rw/
+dr-xr-x--- 2 david proy_b_ro 19 ene 20 19:27 proy_b_ro/
+drwxrwx--- 2 david proy_b_rw 19 ene 20 19:27 proy_b_rw/
+dr-xr-x--- 2 david proy_c_ro 19 ene 20 19:27 proy_c_ro/
+drwxrwx--- 2 david proy_c_rw 19 ene 20 19:27 proy_c_rw/
 ```
 
-Además todos los archivos dentro de los `proy_?_ro/*` deben tener los permisos "640".
+Resumiendo:
+* Dentro de las carpetas `proy_?_rw/`
+    * todos los archivos deben tener los permisos "660".
+    * todas las subcareptas deben tener los permisos "770".
+    * Todo el grupo con permisos de lectura y escritura y navegación.
+* Dentro de las carpetas `proy_?_ro/`
+    * todos los archivos deben tener los permisos "440".
+    * todas las subcareptas deben tener los permisos "550".
+    * Todo el grupo con permisos de lectura y navegación.
 
 ```bash
 $ vdir proy_a_ro 
 total 4
--rw-rw---- 2 david proy_a_ro 14 ene 20 19:31 a.txt
+-r--r----- 2 david proy_a_ro 14 ene 20 19:31 a.txt
 ```
 
+```
 ¡Bueno! Hemos hecho mucho curro manual pero el experimento !FUNCIONA!
+```
 
 ## 3.3 Script que lo haga automático
 
-Ahora que sabemos que podemos usar los enlaces duros, junto con grupos y los permisos "640" para "simular" el mismo efecto que el paquete ACL... pero hacerlo manualmente es mucho trabajo, vamos a hacernos un script que lo haga todo por nosotros.
+Ahora sabemos que podemos usar los enlaces duros, junto con grupos y los permisos adecuados para "simular" un efecto "parecido" al paquete ACL. Pero manualmente es mucho trabajo, de modo que vamos a hacernos un script que lo haga todo por nosotros.
 
 ```
 (Esto es lo que más me gusta. ¡Automatizar!)

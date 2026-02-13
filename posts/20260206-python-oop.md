@@ -12,11 +12,12 @@ En Python
 * que los objetos guardan los atributos en diccionarios,
 * y que las clases guardan los métodos de instancia en diccionarios.
 
-> Todo esto está explicado en el [post diccionario](20260108.diccionario.md)
+> Todo esto está explicado en el [post diccionario](20260108-python-diccionario.md)
 
-Se llega a la "extraña", y entiendo que "poco" deseable situación (para un desarrollador POO "clásico"), que un objeto de la clase `Gato` puede utilizar los métodos de la clase `Perro`. Esto es, un "Gato" se comporta como un "Perro".
+Se llega a la "extraña", y entiendo que "poco" deseable situación (para un desarrollador OOP "clásico"), que un objeto de la clase `Gato` puede utilizar los métodos de la clase `Perro`. Esto es, un _"Gato" que se comporta como un "Perro"_.
 
 ```text
+Si el gato se comporta como un perro entonces...
 ¿El Gato es un Perro?
 ```
 
