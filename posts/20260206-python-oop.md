@@ -5,7 +5,7 @@ Fecha : 20260206
 Autor : David Vargas
 ```
 
-# POO Python
+# OOP Python
 
 En Python
 * al tener "ocultación por protocolo", 
