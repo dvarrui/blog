@@ -7,7 +7,7 @@ Autor : David Vargas
 
 # Delimitadores
 
-# 0. Bloques de código
+**Bloques de código**
 
 En la época de Dijsktra de formalizó la idea de que a la hora de programar necesitamos crear bloques de código. La idea de que el "goto" era dañino de alguna manera viene a decir que en programación tenemos unas estructuras básicas (o bloques): secuencial, condicional e iterativo, y por tanto debemos programar respetando estas estructuras. El uso manual del "goto" es potencialmente un peligro porque se puede infringir o no respetar estas estructuras o bloques (Código espagueti).
 
