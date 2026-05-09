@@ -16,4 +16,4 @@ Diario y contenidos de interés
 
 2026-mayo:
 
-* [delimintadores](./posts/20260905-delimitadores.md)
+* [delimitadores](./posts/20260905-delimitadores.md)
