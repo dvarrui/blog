@@ -5,7 +5,9 @@ Fecha : 20260206
 Autor : David Vargas
 ```
 
-# POO Python (parte 1)
+# OOP Python (parte 1)
+
+En Python:
 
 * al tener "ocultación por protocolo", 
 * que los objetos guardan los atributos en diccionarios,
