@@ -15,7 +15,7 @@ Al programar tenemos bloques de código. Cada bloque implica un ámbito. Hay blo
 
 Todos los lenguajes de programación que han surgido desde el artículo de Dijsktra definen bloques, pero los defienen de manera diferente.
 
-# 1. Marcado de inicio y final**
+# 1. Marcado de inicio y final
 
 En estos lenguajes se usa una marca para el inicio del bloque (scope) y otra marca para el final del bloque.
 
