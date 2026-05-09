@@ -70,3 +70,4 @@ El objetivo de estos posts, no es molestar a nadie, sino:
 3. La OOP de Python no es para nada como esperaba que fuera
 4. No recomiendo a nadie que haga nada de lo que pone este post. Además mi intención es advertir o mostrar de posibles comportamientos no deseado que pueden ocurrir en la OOP de Python.
 
+> Este caso "parte 2" es más coherente que la "parte 1", porque aquí se está redefiniendo la clase A durante la ejecución del programa. Y la clase A cambia su definición en modo dinámico pero sigue siendo la clase A. Pero en la "parte 1", hay una "rotura" de la OOP porque sin redefinir la clase A, un objeto de A se usa como si fuera de la clase B. No tiene sentido.
