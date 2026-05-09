@@ -5,16 +5,17 @@ Fecha : 20260206
 Autor : David Vargas
 ```
 
-# POO Python
+# OOP Python (parte 1)
 
-En Python
+En Python:
+
 * al tener "ocultación por protocolo", 
 * que los objetos guardan los atributos en diccionarios,
 * y que las clases guardan los métodos de instancia en diccionarios.
 
-> Todo esto está explicado en el [post diccionario](20260108-python-diccionario.md)
+> Todo esto está explicado en el post [diccionario](20260108-python-diccionario.md)
 
-Se llega a la "extraña", y entiendo que "poco" deseable situación (para un desarrollador OOP "clásico"), que un objeto de la clase `Gato` puede utilizar los métodos de la clase `Perro`. Esto es, un _"Gato" que se comporta como un "Perro"_.
+Se llega a la "extraña", y entiendo que "poco" deseable situación (para un desarrollador OOP "clásico"), que un objeto de la clase `Gato` puede utilizar los métodos de la clase `Perro` como si perteneciera a otra clase. Esto es, un _"Gato" que se comporta como un "Perro"_.
 
 ```text
 Si el gato se comporta como un perro entonces...
@@ -49,3 +50,7 @@ Perro.ladrar(garfield) #=> [Garfield] Guau
 ```
 
 _Esto me ha hecho un "crack mental" al mismo tiempo que me ha "liberado de mis cadenas Pitónicas"_
+
+**IMHO: No tiene sentido que un objeto de la clase A se "haga pasar" como un objeto de la clase B.**
+
+[OOP Python - parte 2](../posts/20260209-python-oop.md)
