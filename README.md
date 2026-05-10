@@ -16,4 +16,4 @@ Diario y contenidos de interés
 
 2026-mayo:
 
-* [delimitadores](./posts/20260509-delimitadores.md)
+* [delimitadores](./posts/20260509-delimitadores.md): Tipos de delimitadores de bloques en los lenguajes de programación.
