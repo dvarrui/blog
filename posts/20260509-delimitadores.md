@@ -186,7 +186,9 @@ Argumentos para tomar esta decisión de diseño:
     - Si es visual, pero lo que se visualiza son los espacios. Hay que ver los espacios, si no hay espacios no funciona. Los espacios son lo que marca el bloque, por tanto los espacios tienen significado y afectan a la semántica del programa. Actúan como keywords no visibles del lenguaje.
     - Siendo estrictos generan más ruido visual que el marcado de bloque "inicio-fin". Porque en lugar de 2 tokens (keywords) al inicio y al final, se tienen tantos tokens (keywords) como líneas tenga el bloque. Es un "ruido visual de espacios" o verbosidad semántica. No podemos despreocuparnos de esos espacios porque tienen significado y da sentido al programa.
     - Estos espacios son un "keyword" no visible.
-3. **Es una apuesta por la limpieza visual**: Es una "limpieza" en el sentido de "ocultación visual" de algo que si existe. Ejemplo usando un lenguaje inventado:
+3. **Es una apuesta por la limpieza visual**: Es una "limpieza" en el sentido de "ocultación visual" de algo que si existe.
+    - Realmente no hay "limpieza visual". Es hacer no visible algo que si tiene que existir.
+    - Ejemplo usando un lenguaje inventado:
 
 ```python
 # Lenguaje inventado para mostrar números en lugar de "espacios-con-significado-bloque"
@@ -199,7 +201,6 @@ Argumentos para tomar esta decisión de diseño:
 2 echo &"{contador} es impar"
 0 inc contador
 ```
-    - Realmente no ha "limpieza visual", si no hacer invisible algo que si existe.
 4. **Eliminando la redundancia de las llaves**: Elimina la redundacia de las llaves pero incluye redundacia de los "espacios con significado".
 
 > Resumiendo:
