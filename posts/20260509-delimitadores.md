@@ -206,4 +206,4 @@ Argumentos para tomar esta decisión de diseño:
 > Resumiendo:
 >
 > * Se marca con espacios cada una de las líneas del bloque.
-> * Se usan N tokens (keyword) extra para marcar cada bloque. Tantos como líneas tenga el bloque.
+> * Se usan N tokens (keyword) extra para marcar cada bloque. N = Tantas como líneas tenga el bloque.
