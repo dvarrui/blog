@@ -91,7 +91,9 @@ while (contador <= 5) {
 
 # 2. Marca de inicio implícito y final explícito
 
-Hay otros lenguajes que según el contexto no es necesario marcar el inicio de bloque porque está implícito, pero sí necesitan marcar el final del bloque. Por ejemplo Ruby.
+Hay otros lenguajes que según el contexto no es necesario marcar el inicio de bloque porque está implícito, pero sí necesitan marcar el final del bloque.
+
+Ejemplo:
 
 ```ruby
 # Ruby
@@ -124,6 +126,8 @@ Lenguajes:
 * F#
 * Nim
 * GDScript
+
+Ejemplos:
 
 ```python
 # Python
