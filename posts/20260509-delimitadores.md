@@ -89,11 +89,6 @@ while (contador <= 5) {
 }
 ```
 
-> Resumiendo:
->
-> * Estos lenguajes marcan de forma explícita el inicio y el final de cada bloque.
-> * Se usan 2 tokens (keywords) extras para delimitar cada bloque.
-
 # 2. Marca de inicio implícito y final explícito
 
 Hay otros lenguajes que según el contexto no es necesario marcar el inicio de bloque porque está implícito, pero sí necesitan marcar el final del bloque. Por ejemplo Ruby.
@@ -115,11 +110,6 @@ end
 
 * Cuando se inicia un `while` o un `if`, ya se sabe que empieza un bloque y no es necesario especificar nada más. Ponerlo añade redundancia innecesaria.
 * Sólo hay que usar el `end` para definir el cierre del bloque.
-
-> Resumiendo:
->
-> * Se marca de forma implícita el inicio y de forma explícita el final.
-> * Se usa 1 token (keyword) extra para delimitar cada bloque.
 
 _**NOTA**: Ruby también tiene algunos casos de bloques con marcado principio-fin usando `{...}` y otros usando `do...end`._
 
@@ -203,7 +193,10 @@ Argumentos para tomar esta decisión de diseño:
 ```
 4. **Eliminando la redundancia de las llaves**: Elimina la redundacia de las llaves pero incluye redundacia de los "espacios con significado".
 
-> Resumiendo:
->
-> * Se marca con espacios cada una de las líneas del bloque.
-> * Se usan N tokens (keyword) extra para marcar cada bloque. N = Tantas como líneas tenga el bloque.
+# Resumen
+
+| Marcado | Descripción                                          | Tokens(keywords) |
+| ------- | ---------------------------------------------------- | ---------------- |
+| Tipo 1  | Marcar de forma explícita el inicio y el final de cada bloque    | 2 |
+| Tipo 2  | Marca de forma implícita el inicio y de forma explícita el final | 1 |
+| Tipo 3  | Marcar con espacios cada una de las líneas del bloque            | N |
