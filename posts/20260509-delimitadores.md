@@ -195,6 +195,7 @@ Argumentos para tomar esta decisión de diseño:
 2 echo &"{contador} es impar"
 0 inc contador
 ```
+
 4. **Eliminar la redundancia de las llaves**: Elimina la redundacia de las llaves pero incluye redundacia de los "espacios con significado".
 
 # Resumen
